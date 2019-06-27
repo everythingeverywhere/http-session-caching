@@ -12,7 +12,7 @@ The username is stored in the http session.
 1. Run `./gradlew clean build`. This will generate a `war`
 file in `build/libs/`
 1. Using manifest.yml you can `cf push` the `war` file.
-1. While pusing the application please ensure you are 
+1. While pushing the application please ensure you are 
 using the java-buildpack version which supports Session State Caching(SSC), please
 review Pivotal Cloud Cache(PCC) [docs](https://docs.pivotal.io/p-cloud-cache/1-3/developer.html#ssc) to ensure you have 
 the right version. I tested this application with `Java Buildpack offline` version 4.8.
